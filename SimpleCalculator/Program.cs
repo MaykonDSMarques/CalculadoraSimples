@@ -196,7 +196,7 @@ if (culture.TwoLetterISOLanguageName == "it")
 
 }
 
-if(culture.TwoLetterISOLanguageName != "pt" || culture.TwoLetterISOLanguageName != "en" || culture.TwoLetterISOLanguageName == "de" || culture.TwoLetterISOLanguageName == "it")
+if (culture.TwoLetterISOLanguageName != "pt" || culture.TwoLetterISOLanguageName != "en" || culture.TwoLetterISOLanguageName == "de" || culture.TwoLetterISOLanguageName == "it")
 {
     Console.WriteLine("Current user interface language: " + uiCulture.TwoLetterISOLanguageName);
 
