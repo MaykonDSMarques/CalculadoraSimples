@@ -22,7 +22,7 @@ if (culture.TwoLetterISOLanguageName == "pt")
     Console.WriteLine("Digite * para Multiplicação");
     Console.WriteLine("Digite / para Divisão");
     Console.WriteLine("Digite + para Soma");
-    Console.WriteLine("Digite - para Subtraçã");
+    Console.WriteLine("Digite - para Subtração");
 
     string equatiion = Console.ReadLine();
 
