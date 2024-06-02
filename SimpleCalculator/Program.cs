@@ -195,3 +195,50 @@ if (culture.TwoLetterISOLanguageName == "it")
     }
 
 }
+
+if(culture.TwoLetterISOLanguageName != "pt" || culture.TwoLetterISOLanguageName != "en" || culture.TwoLetterISOLanguageName == "de" || culture.TwoLetterISOLanguageName == "it")
+{
+    Console.WriteLine("Current user interface language: " + uiCulture.TwoLetterISOLanguageName);
+
+    Console.WriteLine("Choose the first number");
+    string userInput = Console.ReadLine();
+    Console.WriteLine("First Number: " + userInput);
+    float n1 = float.Parse(userInput, CultureInfo.InvariantCulture);
+
+    Console.WriteLine("Choose the second number");
+    string userInput2 = Console.ReadLine();
+    Console.WriteLine("Second Number: " + userInput2);
+    float n2 = float.Parse(userInput2, CultureInfo.InvariantCulture);
+
+    Console.WriteLine("Type * for Multiplication");
+    Console.WriteLine("Type / for Division");
+    Console.WriteLine("Type + for Addition");
+    Console.WriteLine("Type - for Subtraction");
+
+    string equation = Console.ReadLine();
+
+    if (equation == "*")
+    {
+        Console.WriteLine("Selected equation: Multiplication");
+        float total = n1 * n2;
+        Console.WriteLine($"The result of {n1.ToString(CultureInfo.InvariantCulture)} * {n2.ToString(CultureInfo.InvariantCulture)} is: {total.ToString(CultureInfo.InvariantCulture)}");
+    }
+    else if (equation == "/")
+    {
+        Console.WriteLine("Selected equation: Division");
+        float total = n1 / n2;
+        Console.WriteLine($"The result of {n1.ToString(CultureInfo.InvariantCulture)} / {n2.ToString(CultureInfo.InvariantCulture)} is: {total.ToString(CultureInfo.InvariantCulture)}");
+    }
+    else if (equation == "+")
+    {
+        Console.WriteLine("Selected equation: Addition");
+        float total = n1 + n2;
+        Console.WriteLine($"The result of {n1.ToString(CultureInfo.InvariantCulture)} + {n2.ToString(CultureInfo.InvariantCulture)} is: {total.ToString(CultureInfo.InvariantCulture)}");
+    }
+    else if (equation == "-")
+    {
+        Console.WriteLine("Selected equation: Subtraction");
+        float total = n1 - n2;
+        Console.WriteLine($"The result of {n1.ToString(CultureInfo.InvariantCulture)} - {n2.ToString(CultureInfo.InvariantCulture)} is: {total.ToString(CultureInfo.InvariantCulture)}");
+    }
+}
