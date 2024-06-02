@@ -12,3 +12,4 @@ C:\Users\mayko\DEV\C#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\refint\
 C:\Users\mayko\DEV\C#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.pdb
 C:\Users\mayko\DEV\C#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.genruntimeconfig.cache
 C:\Users\mayko\DEV\C#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\ref\SimpleCalculator.dll
+C:\Users\mayko\DEV\C#\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0\SimpleCalculator.sourcelink.json
